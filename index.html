@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moto Battery Finder | ស្វែងរកទំហំអាគុយម៉ូតូ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <h1>🔋 Moto Battery Finder</h1>
+      <p class="subtitle">វាយឈ្មោះម៉ូតូ (ម៉ាក ឬម៉ូដែល) ដើម្បីដឹងទំហំ និងលេខកូដអាគុយពិតប្រាកដ</p>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="search-section">
+      <div class="search-box">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="ឧ. Wave, Click, Exciter, Raider..."
+          autocomplete="off"
+        >
+        <button id="clearBtn" aria-label="សម្អាត">✕</button>
+      </div>
+
+      <div class="filter-row">
+        <select id="makeFilter">
+          <option value="">-- ម៉ាកទាំងអស់ --</option>
+        </select>
+      </div>
+
+      <p id="resultCount" class="result-count"></p>
+    </section>
+
+    <section id="resultsGrid" class="results-grid">
+      <!-- លទ្ធផលនឹងបង្ហាញនៅទីនេះ ដោយ JavaScript -->
+    </section>
+
+    <p id="noResults" class="no-results" hidden>
+      មិនរកឃើញម៉ូតូដែលត្រូវនឹងការស្វែងរករបស់អ្នកទេ។ សូមព្យាយាមឈ្មោះផ្សេង។
+    </p>
+
+  </main>
+
+  <!-- Modal សម្រាប់បង្ហាញព័ត៌មានលម្អិត -->
+  <div id="detailModal" class="modal" hidden>
+    <div class="modal-content">
+      <button id="closeModal" class="modal-close" aria-label="បិទ">✕</button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>⚠️ ទិន្នន័យនេះសម្រាប់ជាឯកសារយោង។ សូមផ្ទៀងផ្ទាត់ជាមួយហាងលក់អាគុយមុនទិញ។</p>
+    <p style="margin-top:6px; opacity:0.7;">Moto Battery Finder &copy; 2026</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,1024 @@
+// data.js
+// ទិន្នន័យអាគុយម៉ូតូ - សម្រាប់ម៉ូតូនៅកម្ពុជា
+// ជំនួស motorcycle_image និង battery_image ដោយ URL រូបភាពពិតរបស់អ្នក
+// (ឧ. "images/honda-wave.jpg") នៅពេលអ្នកមានរូបភាពពិត
+
+const batteryData = [
+  {
+    make: "Honda",
+    model: "Dream 100/110",
+    year_range: "All",
+    battery_code: "YB4L-B",
+    voltage: "12V",
+    capacity: "3Ah",
+    dimensions_mm: "71 x 71 x 93",
+    motorcycle_image: "https://imgcdn.zigwheels.co.th/large/gallery/exterior/90/1671/honda-dream-110-i-slant-front-view-(full-image).jpg",
+    battery_image: "https://www.batterycontroller.it/cdn/shop/files/BCB4L-B-GEL_74dffc37-967a-4a53-a8ed-f4a0c2022088.jpg?v=1748513903"
+  },
+  {
+    make: "Honda",
+    model: "Wave 100/110/125",
+    year_range: "All",
+    battery_code: "YTZ5S",
+    voltage: "12V",
+    capacity: "3.5Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://global-fs.webike-cdn.net/moto_img/cg/8/7745/L_4a8129e6e61d7bc85db98da36d.jpg",
+    battery_image: "https://www.raidenforce.com/cdn/shop/files/OD_YTZ5S.jpg?v=1691211684&width=1080"
+  },
+  {
+    make: "Honda",
+    model: "Future 125 FI",
+    year_range: "2013-2023",
+    battery_code: "YTZ5S",
+    voltage: "12V",
+    capacity: "3.5Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://cdn.honda.com.vn/motorbike-versions/Image360/October2025/1761614933/6.png",
+    battery_image: "https://www.raidenforce.com/cdn/shop/files/OD_YTZ5S.jpg?v=1691211684&width=1080"
+  },
+  {
+    make: "Honda",
+    model: "Click 125i/150i",
+    year_range: "2012-2023",
+    battery_code: "YTZ5S",
+    voltage: "12V",
+    capacity: "3.5Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://motortrade.com.ph/wp-content/uploads/2025/10/CLICK125i-ACB125CBFTII-PW-1200x938.jpg",
+    battery_image: "https://www.raidenforce.com/cdn/shop/files/OD_YTZ5S.jpg?v=1691211684&width=1080"
+  },
+  {
+    make: "Honda",
+    model: "Scoopy",
+    year_range: "All",
+    battery_code: "GTZ4V",
+    voltage: "12V",
+    capacity: "3Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://i0.wp.com/www.kmxmotors.com/wp-content/uploads/2022/10/Honda-Scoopy-year-2023-5.png?fit=685%2C426&ssl=1?v=1665155729",
+    battery_image: "https://placehold.co/300x200?text=GTZ4V"
+  },
+  {
+    make: "Honda",
+    model: "Beat",
+    year_range: "All",
+    battery_code: "GTZ4V",
+    voltage: "12V",
+    capacity: "3Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://boonsiewhonda.com.my/wp-content/uploads/2025/09/white-featured-BeAT.png",
+    battery_image: "https://placehold.co/300x200?text=GTZ4V"
+  },
+  {
+    make: "Honda",
+    model: "PCX 150/160",
+    year_range: "2014-2023",
+    battery_code: "YTZ7S",
+    voltage: "12V",
+    capacity: "6Ah",
+    dimensions_mm: "113 x 70 x 105",
+    motorcycle_image: "https://motortrade.com.ph/wp-content/uploads/2021/06/1-2.jpg",
+    battery_image: "https://placehold.co/300x200?text=YTZ7S"
+  },
+  {
+    make: "Honda",
+    model: "ADV 150/160",
+    year_range: "2019-2023",
+    battery_code: "YTZ7S",
+    voltage: "12V",
+    capacity: "6Ah",
+    dimensions_mm: "113 x 70 x 105",
+    motorcycle_image: "https://premiumbikes.ph/wp-content/uploads/2023/12/honda-ADV160-3-1.png",
+    battery_image: "https://placehold.co/300x200?text=YTZ7S"
+  },
+  {
+    make: "Honda",
+    model: "Winner X/RS150R",
+    year_range: "2016-2023",
+    battery_code: "YTZ5S",
+    voltage: "12V",
+    capacity: "3.5Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://boonsiewhonda.com.my/wp-content/uploads/2024/12/85.png",
+    battery_image: "https://www.raidenforce.com/cdn/shop/files/OD_YTZ5S.jpg?v=1691211684&width=1080"
+  },
+  {
+    make: "Honda",
+    model: "Sonic 150R",
+    year_range: "2015-2023",
+    battery_code: "YTZ5S",
+    voltage: "12V",
+    capacity: "3.5Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSio9sjADbmLVyh1u2c9mELYkzsGg2jq9vEKw&s",
+    battery_image: "https://www.raidenforce.com/cdn/shop/files/OD_YTZ5S.jpg?v=1691211684&width=1080"
+  },
+  {
+    make: "Honda",
+    model: "CB150R Streetfire",
+    year_range: "2015-2023",
+    battery_code: "YTZ7S",
+    voltage: "12V",
+    capacity: "6Ah",
+    dimensions_mm: "113 x 70 x 105",
+    motorcycle_image: "https://www.ncxhonda.com/motorcycles/storage/app/uploads/360/CBF150NR-CA/Honda_CB360-8.jpg",
+    battery_image: "https://placehold.co/300x200?text=YTZ7S"
+  },
+  {
+    make: "Honda",
+    model: "CBR150R",
+    year_range: "2016-2023",
+    battery_code: "YTZ7S",
+    voltage: "12V",
+    capacity: "6Ah",
+    dimensions_mm: "113 x 70 x 105",
+    motorcycle_image: "https://www.kmxmotors.com/wp-content/uploads/2022/01/Honda-CBR150R-year-2022-Price-1.jpg?v=1642830611",
+    battery_image: "https://placehold.co/300x200?text=YTZ7S"
+  },
+  {
+    make: "Honda",
+    model: "CRF150L/XR150L",
+    year_range: "2015-2023",
+    battery_code: "YTZ7S",
+    voltage: "12V",
+    capacity: "6Ah",
+    dimensions_mm: "113 x 70 x 105",
+    motorcycle_image: "https://motortrade.com.ph/wp-content/uploads/2018/09/XR150L-1.jpg",
+    battery_image: "https://placehold.co/300x200?text=YTZ7S"
+  },
+  {
+    make: "Honda",
+    model: "Rebel 300",
+    year_range: "2017-2023",
+    battery_code: "YTZ7S",
+    voltage: "12V",
+    capacity: "6Ah",
+    dimensions_mm: "113 x 70 x 105",
+    motorcycle_image: "https://powersports.honda.com/motorcycle/cruiser/-/media/products/family/rebel-300/new-features/rebel-300-e-clutch/desktop/2026/2026-rebel-300-e-clutch-honda-e-clutch-dt.png",
+    battery_image: "https://placehold.co/300x200?text=YTZ7S"
+  },
+  {
+    make: "Yamaha",
+    model: "Sirius",
+    year_range: "All",
+    battery_code: "YTZ4V",
+    voltage: "12V",
+    capacity: "3Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://rentalmotorbikehanoi.com/wp-content/uploads/2021/08/Yamaha-Sirius-Motorbike-Rental.jpg",
+    battery_image: "https://placehold.co/300x200?text=YTZ4V"
+  },
+  {
+    make: "Yamaha",
+    model: "Jupiter/Jupiter Z1",
+    year_range: "All",
+    battery_code: "YTZ4V",
+    voltage: "12V",
+    capacity: "3Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://globalmotorindo.com/wp-content/uploads/2026/04/2025061108303017327J72634.png",
+    battery_image: "https://placehold.co/300x200?text=YTZ4V"
+  },
+  {
+    make: "Yamaha",
+    model: "Mio Sporty/Fino",
+    year_range: "All",
+    battery_code: "YTZ4V",
+    voltage: "12V",
+    capacity: "3Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2-yxvsWQ4YPvJzzxlz2pz5GixelWa1hq2iw&s",
+    battery_image: "https://placehold.co/300x200?text=YTZ4V"
+  },
+  {
+    make: "Yamaha",
+    model: "Exciter 150/155 (Sniper)",
+    year_range: "2017-2023",
+    battery_code: "YTZ5S",
+    voltage: "12V",
+    capacity: "3.5Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://d29c80i09kxy2a.cloudfront.net/custom/motorcycle-model-photo/mobile/gallery/yamaha-sniper-155-6656d387343e6.jpg",
+    battery_image: "https://www.raidenforce.com/cdn/shop/files/OD_YTZ5S.jpg?v=1691211684&width=1080"
+  },
+  {
+    make: "Yamaha",
+    model: "NVX/Aerox 155",
+    year_range: "2016-2023",
+    battery_code: "YTZ7V",
+    voltage: "12V",
+    capacity: "5Ah",
+    dimensions_mm: "113 x 70 x 105",
+    motorcycle_image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgSGMi5Z8aiQwkAHzKUnt6xvC75tK2tOALfQ&s",
+    battery_image: "https://placehold.co/300x200?text=YTZ7V"
+  },
+  {
+    make: "Yamaha",
+    model: "NMAX 155",
+    year_range: "2015-2023",
+    battery_code: "YTZ7V",
+    voltage: "12V",
+    capacity: "5Ah",
+    dimensions_mm: "113 x 70 x 105",
+    motorcycle_image: "https://www.yamaha-motor.com.au/-/media/products/motorcycle/road/scooter/2026/gpd155at/product-category-thumbnail/2026_nmax155_mdnm9_aus_stu_003_750x600.ashx",
+    battery_image: "https://placehold.co/300x200?text=YTZ7V"
+  },
+  {
+    make: "Yamaha",
+    model: "YZF-R15/MT-15",
+    year_range: "2017-2023",
+    battery_code: "YTZ7V",
+    voltage: "12V",
+    capacity: "5Ah",
+    dimensions_mm: "113 x 70 x 105",
+    motorcycle_image: "https://placehold.co/300x200?text=Yamaha+R15",
+    battery_image: "https://placehold.co/300x200?text=YTZ7V"
+  },
+  {
+    make: "Suzuki",
+    model: "Smash/Smash FI",
+    year_range: "All",
+    battery_code: "YB4L-B",
+    voltage: "12V",
+    capacity: "3Ah",
+    dimensions_mm: "71 x 71 x 93",
+    motorcycle_image: "https://placehold.co/300x200?text=Suzuki+Smash",
+    battery_image: "https://placehold.co/300x200?text=YB4L-B"
+  },
+  {
+    make: "Suzuki",
+    model: "Raider R150 FI",
+    year_range: "2008-2023",
+    battery_code: "YTZ5S",
+    voltage: "12V",
+    capacity: "3.5Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://placehold.co/300x200?text=Suzuki+Raider",
+    battery_image: "https://www.raidenforce.com/cdn/shop/files/OD_YTZ5S.jpg?v=1691211684&width=1080"
+  },
+  {
+    make: "Suzuki",
+    model: "Belang R150",
+    year_range: "2008-2016",
+    battery_code: "YTZ5S",
+    voltage: "12V",
+    capacity: "3.5Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://placehold.co/300x200?text=Suzuki+Belang",
+    battery_image: "https://www.raidenforce.com/cdn/shop/files/OD_YTZ5S.jpg?v=1691211684&width=1080"
+  },
+  {
+    make: "Suzuki",
+    model: "GSX-R150/GSX-S150",
+    year_range: "2017-2023",
+    battery_code: "YTZ7S",
+    voltage: "12V",
+    capacity: "6Ah",
+    dimensions_mm: "113 x 70 x 105",
+    motorcycle_image: "https://placehold.co/300x200?text=Suzuki+GSX-R150",
+    battery_image: "https://placehold.co/300x200?text=YTZ7S"
+  },
+  {
+    make: "Kawasaki",
+    model: "Ninja 250 (FI)",
+    year_range: "2013-2023",
+    battery_code: "YTZ7S",
+    voltage: "12V",
+    capacity: "6Ah",
+    dimensions_mm: "113 x 70 x 105",
+    motorcycle_image: "https://placehold.co/300x200?text=Kawasaki+Ninja+250",
+    battery_image: "https://placehold.co/300x200?text=YTZ7S"
+  },
+  {
+    make: "Kawasaki",
+    model: "KLX150",
+    year_range: "2009-2023",
+    battery_code: "YTZ7S",
+    voltage: "12V",
+    capacity: "6Ah",
+    dimensions_mm: "113 x 70 x 105",
+    motorcycle_image: "https://placehold.co/300x200?text=Kawasaki+KLX150",
+    battery_image: "https://placehold.co/300x200?text=YTZ7S"
+  },
+  {
+    make: "Kawasaki",
+    model: "Z125 Pro",
+    year_range: "2016-2023",
+    battery_code: "YTZ5S",
+    voltage: "12V",
+    capacity: "3.5Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://placehold.co/300x200?text=Kawasaki+Z125",
+    battery_image: "https://placehold.co/300x200?text=YTZ5S"
+  },
+  {
+    make: "Daelim",
+    model: "Delta 110/125",
+    year_range: "All",
+    battery_code: "YB4L-B",
+    voltage: "12V",
+    capacity: "3Ah",
+    dimensions_mm: "71 x 71 x 93",
+    motorcycle_image: "https://placehold.co/300x200?text=Daelim+Delta",
+    battery_image: "https://placehold.co/300x200?text=YB4L-B"
+  },
+  {
+    make: "SYM",
+    model: "Angel/Elegant 125",
+    year_range: "All",
+    battery_code: "GTZ5S",
+    voltage: "12V",
+    capacity: "3.5Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://placehold.co/300x200?text=SYM+Angel",
+    battery_image: "https://placehold.co/300x200?text=GTZ5S"
+  },
+  {
+    make: "Kenbo",
+    model: "Wave-style 110/125 (clone)",
+    year_range: "All",
+    battery_code: "YB4L-B",
+    voltage: "12V",
+    capacity: "3Ah",
+    dimensions_mm: "71 x 71 x 93",
+    motorcycle_image: "https://placehold.co/300x200?text=Kenbo",
+    battery_image: "https://placehold.co/300x200?text=YB4L-B"
+  },
+  {
+    make: "Lifan",
+    model: "LF125 (Wave-style clone)",
+    year_range: "All",
+    battery_code: "YB4L-B",
+    voltage: "12V",
+    capacity: "3Ah",
+    dimensions_mm: "71 x 71 x 93",
+    motorcycle_image: "https://placehold.co/300x200?text=Lifan+LF125",
+    battery_image: "https://placehold.co/300x200?text=YB4L-B"
+  },
+    // ===== បន្ថែម - Honda (ត្រូវ verify) =====
+  {
+    make: "Honda",
+    model: "Click 125i (2021+ / eSP+)",
+    year_range: "2021-2023",
+    battery_code: "GTZ5S",
+    voltage: "12V",
+    capacity: "3.5Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://placehold.co/300x200?text=Honda+Click+125i",
+    battery_image: "https://placehold.co/300x200?text=GTZ5S"
+  },
+  {
+    make: "Honda",
+    model: "Cub C125",
+    year_range: "2018-2023",
+    battery_code: "GTZ5S",
+    voltage: "12V",
+    capacity: "3.5Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://placehold.co/300x200?text=Honda+Cub+C125",
+    battery_image: "https://placehold.co/300x200?text=GTZ5S"
+  },
+  {
+    make: "Honda",
+    model: "MSX125 (Grom)",
+    year_range: "2013-2023",
+    battery_code: "YTZ5S",
+    voltage: "12V",
+    capacity: "3.5Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://placehold.co/300x200?text=Honda+MSX125",
+    battery_image: "https://placehold.co/300x200?text=YTZ5S"
+  },
+  {
+    make: "Honda",
+    model: "Zoomer-X",
+    year_range: "2012-2023",
+    battery_code: "YTZ4V",
+    voltage: "12V",
+    capacity: "3Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://placehold.co/300x200?text=Honda+Zoomer-X",
+    battery_image: "https://placehold.co/300x200?text=YTZ4V"
+  },
+  {
+    make: "Honda",
+    model: "CB150 Verza",
+    year_range: "2013-2023",
+    battery_code: "YTZ7S",
+    voltage: "12V",
+    capacity: "6Ah",
+    dimensions_mm: "113 x 70 x 105",
+    motorcycle_image: "https://placehold.co/300x200?text=Honda+CB150+Verza",
+    battery_image: "https://placehold.co/300x200?text=YTZ7S"
+  },
+
+  // ===== បន្ថែម - Yamaha (ត្រូវ verify) =====
+  {
+    make: "Yamaha",
+    model: "Fino 125",
+    year_range: "2012-2023",
+    battery_code: "YTZ4V",
+    voltage: "12V",
+    capacity: "3Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://placehold.co/300x200?text=Yamaha+Fino+125",
+    battery_image: "https://placehold.co/300x200?text=YTZ4V"
+  },
+  {
+    make: "Yamaha",
+    model: "FreeGo 125",
+    year_range: "2019-2023",
+    battery_code: "YTZ5S",
+    voltage: "12V",
+    capacity: "3.5Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://placehold.co/300x200?text=Yamaha+FreeGo",
+    battery_image: "https://placehold.co/300x200?text=YTZ5S"
+  },
+  {
+    make: "Yamaha",
+    model: "Grand Filano",
+    year_range: "2018-2023",
+    battery_code: "YTZ5S",
+    voltage: "12V",
+    capacity: "3.5Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://placehold.co/300x200?text=Yamaha+Grand+Filano",
+    battery_image: "https://placehold.co/300x200?text=YTZ5S"
+  },
+  {
+    make: "Yamaha",
+    model: "XSR155",
+    year_range: "2019-2023",
+    battery_code: "YTZ7V",
+    voltage: "12V",
+    capacity: "5Ah",
+    dimensions_mm: "113 x 70 x 105",
+    motorcycle_image: "https://placehold.co/300x200?text=Yamaha+XSR155",
+    battery_image: "https://placehold.co/300x200?text=YTZ7V"
+  },
+
+  // ===== បន្ថែម - Suzuki (ត្រូវ verify) =====
+  {
+    make: "Suzuki",
+    model: "Address 110",
+    year_range: "2015-2023",
+    battery_code: "YTZ4V",
+    voltage: "12V",
+    capacity: "3Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://placehold.co/300x200?text=Suzuki+Address",
+    battery_image: "https://placehold.co/300x200?text=YTZ4V"
+  },
+  {
+    make: "Suzuki",
+    model: "Satria F150",
+    year_range: "2004-2023",
+    battery_code: "YTZ5S",
+    voltage: "12V",
+    capacity: "3.5Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://placehold.co/300x200?text=Suzuki+Satria+F150",
+    battery_image: "https://placehold.co/300x200?text=YTZ5S"
+  },
+
+  // ===== បន្ថែម - Kawasaki (ត្រូវ verify) =====
+  {
+    make: "Kawasaki",
+    model: "D-Tracker 150",
+    year_range: "2012-2023",
+    battery_code: "YTZ7S",
+    voltage: "12V",
+    capacity: "6Ah",
+    dimensions_mm: "113 x 70 x 105",
+    motorcycle_image: "https://placehold.co/300x200?text=Kawasaki+D-Tracker",
+    battery_image: "https://placehold.co/300x200?text=YTZ7S"
+  },
+
+  // ===== បន្ថែម - Taiwan/Local Brands (ត្រូវ verify ខ្លាំង - ភាគច្រើនប្រើសម្រាប់ទីផ្សារកម្ពុជា) =====
+  {
+    make: "Kymco",
+    model: "Many 110/125",
+    year_range: "All",
+    battery_code: "YTZ4V",
+    voltage: "12V",
+    capacity: "3Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://placehold.co/300x200?text=Kymco+Many",
+    battery_image: "https://placehold.co/300x200?text=YTZ4V"
+  },
+  {
+    make: "Kymco",
+    model: "Candy 110",
+    year_range: "All",
+    battery_code: "YTZ4V",
+    voltage: "12V",
+    capacity: "3Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://placehold.co/300x200?text=Kymco+Candy",
+    battery_image: "https://placehold.co/300x200?text=YTZ4V"
+  },
+  {
+    make: "GLX",
+    model: "Sabay 110/125",
+    year_range: "All",
+    battery_code: "YB4L-B",
+    voltage: "12V",
+    capacity: "3Ah",
+    dimensions_mm: "71 x 71 x 93",
+    motorcycle_image: "https://placehold.co/300x200?text=GLX+Sabay",
+    battery_image: "https://placehold.co/300x200?text=YB4L-B"
+  },
+  {
+    make: "GLX",
+    model: "Passenger 125",
+    year_range: "All",
+    battery_code: "YB4L-B",
+    voltage: "12V",
+    capacity: "3Ah",
+    dimensions_mm: "71 x 71 x 93",
+    motorcycle_image: "https://placehold.co/300x200?text=GLX+Passenger",
+    battery_image: "https://placehold.co/300x200?text=YB4L-B"
+  },
+  {
+    make: "Haojue",
+    model: "DK150 (Wave-style clone)",
+    year_range: "All",
+    battery_code: "YB4L-B",
+    voltage: "12V",
+    capacity: "3Ah",
+    dimensions_mm: "71 x 71 x 93",
+    motorcycle_image: "https://placehold.co/300x200?text=Haojue+DK150",
+    battery_image: "https://placehold.co/300x200?text=YB4L-B"
+  },
+  {
+    make: "Loncin",
+    model: "LX110/125 (Wave-style clone)",
+    year_range: "All",
+    battery_code: "YB4L-B",
+    voltage: "12V",
+    capacity: "3Ah",
+    dimensions_mm: "71 x 71 x 93",
+    motorcycle_image: "https://placehold.co/300x200?text=Loncin",
+    battery_image: "https://placehold.co/300x200?text=YB4L-B"
+  },
+    // ===== បន្ថែម - Royal Enfield (ត្រូវ verify) =====
+  {
+    make: "Royal Enfield",
+    model: "Classic 350",
+    year_range: "2021-2023",
+    battery_code: "YTX9-BS",
+    voltage: "12V",
+    capacity: "8Ah",
+    dimensions_mm: "150 x 87 x 105",
+    motorcycle_image: "https://placehold.co/300x200?text=RE+Classic+350",
+    battery_image: "https://placehold.co/300x200?text=YTX9-BS"
+  },
+  {
+    make: "Royal Enfield",
+    model: "Meteor 350",
+    year_range: "2021-2023",
+    battery_code: "YTX9-BS",
+    voltage: "12V",
+    capacity: "8Ah",
+    dimensions_mm: "150 x 87 x 105",
+    motorcycle_image: "https://placehold.co/300x200?text=RE+Meteor+350",
+    battery_image: "https://placehold.co/300x200?text=YTX9-BS"
+  },
+  {
+    make: "Royal Enfield",
+    model: "Himalayan 411",
+    year_range: "2016-2023",
+    battery_code: "YTX9-BS",
+    voltage: "12V",
+    capacity: "8Ah",
+    dimensions_mm: "150 x 87 x 105",
+    motorcycle_image: "https://placehold.co/300x200?text=RE+Himalayan",
+    battery_image: "https://placehold.co/300x200?text=YTX9-BS"
+  },
+
+  // ===== បន្ថែម - CFMoto (ត្រូវ verify) =====
+  {
+    make: "CFMoto",
+    model: "150NK",
+    year_range: "2018-2023",
+    battery_code: "YTZ7S",
+    voltage: "12V",
+    capacity: "6Ah",
+    dimensions_mm: "113 x 70 x 105",
+    motorcycle_image: "https://placehold.co/300x200?text=CFMoto+150NK",
+    battery_image: "https://placehold.co/300x200?text=YTZ7S"
+  },
+  {
+    make: "CFMoto",
+    model: "300NK/300SR",
+    year_range: "2019-2023",
+    battery_code: "YTX9-BS",
+    voltage: "12V",
+    capacity: "8Ah",
+    dimensions_mm: "150 x 87 x 105",
+    motorcycle_image: "https://placehold.co/300x200?text=CFMoto+300NK",
+    battery_image: "https://placehold.co/300x200?text=YTX9-BS"
+  },
+  {
+    make: "CFMoto",
+    model: "650NK/650MT",
+    year_range: "2018-2023",
+    battery_code: "YTX12-BS",
+    voltage: "12V",
+    capacity: "10Ah",
+    dimensions_mm: "150 x 87 x 130",
+    motorcycle_image: "https://placehold.co/300x200?text=CFMoto+650NK",
+    battery_image: "https://placehold.co/300x200?text=YTX12-BS"
+  },
+
+  // ===== បន្ថែម - Tuk-tuk / Remork Engine (confidence ទាប - ត្រូវ verify ខ្លាំង) =====
+  {
+    make: "Tuk-tuk (Bajaj-based)",
+    model: "RE 205cc (Remork)",
+    year_range: "All",
+    battery_code: "N50Z / NS40",
+    voltage: "12V",
+    capacity: "35Ah",
+    dimensions_mm: "197 x 129 x 227",
+    motorcycle_image: "https://placehold.co/300x200?text=Tuk-tuk+Bajaj",
+    battery_image: "https://placehold.co/300x200?text=N50Z"
+  },
+  {
+    make: "Tuk-tuk (Chinese-based)",
+    model: "150-175cc (Remork)",
+    year_range: "All",
+    battery_code: "N50Z / NS40",
+    voltage: "12V",
+    capacity: "30-35Ah",
+    dimensions_mm: "197 x 129 x 227",
+    motorcycle_image: "https://placehold.co/300x200?text=Tuk-tuk+Chinese",
+    battery_image: "https://placehold.co/300x200?text=NS40"
+  },
+
+  // ===== បន្ថែម - E-bike / Electric Scooter (confidence ទាប - ត្រូវ verify - spec ខុសពី lead-acid ធម្មតា) =====
+  {
+    make: "E-bike (Generic Lithium)",
+    model: "48V Electric Scooter",
+    year_range: "All",
+    battery_code: "Li-ion 48V 12Ah/20Ah (pack)",
+    voltage: "48V",
+    capacity: "12Ah / 20Ah",
+    dimensions_mm: "ប្រែប្រួលតាមម៉ូដែល",
+    motorcycle_image: "https://placehold.co/300x200?text=E-bike+48V",
+    battery_image: "https://placehold.co/300x200?text=Li-ion+48V"
+  },
+  {
+    make: "E-bike (Generic Lithium)",
+    model: "60V Electric Scooter",
+    year_range: "All",
+    battery_code: "Li-ion 60V 20Ah/32Ah (pack)",
+    voltage: "60V",
+    capacity: "20Ah / 32Ah",
+    dimensions_mm: "ប្រែប្រួលតាមម៉ូដែល",
+    motorcycle_image: "https://placehold.co/300x200?text=E-bike+60V",
+    battery_image: "https://placehold.co/300x200?text=Li-ion+60V"
+  },
+  {
+    make: "E-bike (Generic 12V Auxiliary)",
+    model: "Electric Scooter (Horn/Lights battery)",
+    year_range: "All",
+    battery_code: "YTZ4V (12V lead-acid, backup)",
+    voltage: "12V",
+    capacity: "3Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://placehold.co/300x200?text=E-bike+Aux",
+    battery_image: "https://placehold.co/300x200?text=YTZ4V"
+  },
+    // ============ HONDA - បន្ថែម ============
+  {
+    make: "Honda",
+    model: "Wave 125i (FI, 2017+)",
+    year_range: "2017-2023",
+    battery_code: "YB4L-B",
+    voltage: "12V",
+    capacity: "3Ah",
+    dimensions_mm: "71 x 71 x 93",
+    motorcycle_image: "https://placehold.co/300x200?text=Honda+Wave+125i",
+    battery_image: "https://placehold.co/300x200?text=YB4L-B"
+  },
+  {
+    make: "Honda",
+    model: "Air Blade 125/150",
+    year_range: "2007-2023",
+    battery_code: "YTZ5S",
+    voltage: "12V",
+    capacity: "3.5Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://placehold.co/300x200?text=Honda+Air+Blade",
+    battery_image: "https://placehold.co/300x200?text=YTZ5S"
+  },
+  {
+    make: "Honda",
+    model: "Vario 125/150",
+    year_range: "2015-2023",
+    battery_code: "YTZ5S",
+    voltage: "12V",
+    capacity: "3.5Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://placehold.co/300x200?text=Honda+Vario",
+    battery_image: "https://placehold.co/300x200?text=YTZ5S"
+  },
+  {
+    make: "Honda",
+    model: "Forza 300/350",
+    year_range: "2018-2023",
+    battery_code: "YTZ10S",
+    voltage: "12V",
+    capacity: "8.6Ah",
+    dimensions_mm: "150 x 87 x 93",
+    motorcycle_image: "https://placehold.co/300x200?text=Honda+Forza",
+    battery_image: "https://placehold.co/300x200?text=YTZ10S"
+  },
+  {
+    make: "Honda",
+    model: "GL Pro / GL160",
+    year_range: "All",
+    battery_code: "YB4L-B",
+    voltage: "12V",
+    capacity: "3Ah",
+    dimensions_mm: "71 x 71 x 93",
+    motorcycle_image: "https://placehold.co/300x200?text=Honda+GL+Pro",
+    battery_image: "https://placehold.co/300x200?text=YB4L-B"
+  },
+  {
+    make: "Honda",
+    model: "XR250 Tornado",
+    year_range: "All",
+    battery_code: "YTZ7S",
+    voltage: "12V",
+    capacity: "6Ah",
+    dimensions_mm: "113 x 70 x 105",
+    motorcycle_image: "https://placehold.co/300x200?text=Honda+XR250",
+    battery_image: "https://placehold.co/300x200?text=YTZ7S"
+  },
+
+  // ============ YAMAHA - បន្ថែម ============
+  {
+    make: "Yamaha",
+    model: "Force 155",
+    year_range: "2018-2023",
+    battery_code: "YTZ7V",
+    voltage: "12V",
+    capacity: "5Ah",
+    dimensions_mm: "113 x 70 x 105",
+    motorcycle_image: "https://placehold.co/300x200?text=Yamaha+Force+155",
+    battery_image: "https://placehold.co/300x200?text=YTZ7V"
+  },
+  {
+    make: "Yamaha",
+    model: "R25/MT-25",
+    year_range: "2014-2023",
+    battery_code: "YTZ10S",
+    voltage: "12V",
+    capacity: "8.6Ah",
+    dimensions_mm: "150 x 87 x 93",
+    motorcycle_image: "https://placehold.co/300x200?text=Yamaha+R25",
+    battery_image: "https://placehold.co/300x200?text=YTZ10S"
+  },
+  {
+    make: "Yamaha",
+    model: "125Z / RX-King (កាប៊្យូរ៉េទ័រចាស់)",
+    year_range: "All",
+    battery_code: "YB4L-B",
+    voltage: "12V",
+    capacity: "3Ah",
+    dimensions_mm: "71 x 71 x 93",
+    motorcycle_image: "https://placehold.co/300x200?text=Yamaha+RX-King",
+    battery_image: "https://placehold.co/300x200?text=YB4L-B"
+  },
+  {
+    make: "Yamaha",
+    model: "Lexi 125",
+    year_range: "2018-2023",
+    battery_code: "YTZ5S",
+    voltage: "12V",
+    capacity: "3.5Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://placehold.co/300x200?text=Yamaha+Lexi",
+    battery_image: "https://placehold.co/300x200?text=YTZ5S"
+  },
+
+  // ============ SUZUKI - បន្ថែម ============
+  {
+    make: "Suzuki",
+    model: "Shogun 125",
+    year_range: "All",
+    battery_code: "YB4L-B",
+    voltage: "12V",
+    capacity: "3Ah",
+    dimensions_mm: "71 x 71 x 93",
+    motorcycle_image: "https://placehold.co/300x200?text=Suzuki+Shogun",
+    battery_image: "https://placehold.co/300x200?text=YB4L-B"
+  },
+  {
+    make: "Suzuki",
+    model: "Nex II 115",
+    year_range: "2013-2023",
+    battery_code: "YTZ4V",
+    voltage: "12V",
+    capacity: "3Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://placehold.co/300x200?text=Suzuki+Nex",
+    battery_image: "https://placehold.co/300x200?text=YTZ4V"
+  },
+  {
+    make: "Suzuki",
+    model: "GSX150 Bandit",
+    year_range: "2017-2023",
+    battery_code: "YTZ7S",
+    voltage: "12V",
+    capacity: "6Ah",
+    dimensions_mm: "113 x 70 x 105",
+    motorcycle_image: "https://placehold.co/300x200?text=Suzuki+Bandit",
+    battery_image: "https://placehold.co/300x200?text=YTZ7S"
+  },
+
+  // ============ KAWASAKI - បន្ថែម ============
+  {
+    make: "Kawasaki",
+    model: "Ninja 150 RR (2-stroke, ចាស់)",
+    year_range: "2000-2015",
+    battery_code: "YB4L-B",
+    voltage: "12V",
+    capacity: "3Ah",
+    dimensions_mm: "71 x 71 x 93",
+    motorcycle_image: "https://placehold.co/300x200?text=Kawasaki+Ninja+150RR",
+    battery_image: "https://placehold.co/300x200?text=YB4L-B"
+  },
+  {
+    make: "Kawasaki",
+    model: "KLX150 BF/L",
+    year_range: "2017-2023",
+    battery_code: "YTZ7S",
+    voltage: "12V",
+    capacity: "6Ah",
+    dimensions_mm: "113 x 70 x 105",
+    motorcycle_image: "https://placehold.co/300x200?text=Kawasaki+KLX150BF",
+    battery_image: "https://placehold.co/300x200?text=YTZ7S"
+  },
+
+  // ============ DAELIM - បន្ថែម ============
+  {
+    make: "Daelim",
+    model: "VJF 125 (Fiddle)",
+    year_range: "All",
+    battery_code: "YTZ4V",
+    voltage: "12V",
+    capacity: "3Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://placehold.co/300x200?text=Daelim+Fiddle",
+    battery_image: "https://placehold.co/300x200?text=YTZ4V"
+  },
+  {
+    make: "Daelim",
+    model: "SL125 Otello/Cross",
+    year_range: "All",
+    battery_code: "YB4L-B",
+    voltage: "12V",
+    capacity: "3Ah",
+    dimensions_mm: "71 x 71 x 93",
+    motorcycle_image: "https://placehold.co/300x200?text=Daelim+Otello",
+    battery_image: "https://placehold.co/300x200?text=YB4L-B"
+  },
+
+  // ============ SYM - បន្ថែម ============
+  {
+    make: "SYM",
+    model: "Jet 14/Jet SR 125",
+    year_range: "2015-2023",
+    battery_code: "YTZ5S",
+    voltage: "12V",
+    capacity: "3.5Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://placehold.co/300x200?text=SYM+Jet+14",
+    battery_image: "https://placehold.co/300x200?text=YTZ5S"
+  },
+  {
+    make: "SYM",
+    model: "Orbit 125",
+    year_range: "2010-2023",
+    battery_code: "YTZ4V",
+    voltage: "12V",
+    capacity: "3Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://placehold.co/300x200?text=SYM+Orbit",
+    battery_image: "https://placehold.co/300x200?text=YTZ4V"
+  },
+
+  // ============ KENBO - បន្ថែម ============
+  {
+    make: "Kenbo",
+    model: "Scoopy-style 110 (clone)",
+    year_range: "All",
+    battery_code: "YTZ4V",
+    voltage: "12V",
+    capacity: "3Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://placehold.co/300x200?text=Kenbo+Scoopy-style",
+    battery_image: "https://placehold.co/300x200?text=YTZ4V"
+  },
+
+  // ============ LIFAN - បន្ថែម ============
+  {
+    make: "Lifan",
+    model: "LF150 (Sport-style)",
+    year_range: "All",
+    battery_code: "YTZ5S",
+    voltage: "12V",
+    capacity: "3.5Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://placehold.co/300x200?text=Lifan+LF150",
+    battery_image: "https://placehold.co/300x200?text=YTZ5S"
+  },
+
+  // ============ KYMCO - បន្ថែម ============
+  {
+    make: "Kymco",
+    model: "Jockey 125",
+    year_range: "All",
+    battery_code: "YTZ5S",
+    voltage: "12V",
+    capacity: "3.5Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://placehold.co/300x200?text=Kymco+Jockey",
+    battery_image: "https://placehold.co/300x200?text=YTZ5S"
+  },
+
+  // ============ GLX - បន្ថែម ============
+  {
+    make: "GLX",
+    model: "Zip 110/125",
+    year_range: "All",
+    battery_code: "YB4L-B",
+    voltage: "12V",
+    capacity: "3Ah",
+    dimensions_mm: "71 x 71 x 93",
+    motorcycle_image: "https://placehold.co/300x200?text=GLX+Zip",
+    battery_image: "https://placehold.co/300x200?text=YB4L-B"
+  },
+
+  // ============ ម៉ាកបន្ថែមថ្មី - TVS/Bajaj/Piaggio (ត្រូវ verify) ============
+  {
+    make: "TVS",
+    model: "Sport 100",
+    year_range: "All",
+    battery_code: "YB4L-B",
+    voltage: "12V",
+    capacity: "3Ah",
+    dimensions_mm: "71 x 71 x 93",
+    motorcycle_image: "https://placehold.co/300x200?text=TVS+Sport",
+    battery_image: "https://placehold.co/300x200?text=YB4L-B"
+  },
+  {
+    make: "TVS",
+    model: "Apache RTR 160",
+    year_range: "2013-2023",
+    battery_code: "YTZ5S",
+    voltage: "12V",
+    capacity: "3.5Ah",
+    dimensions_mm: "113 x 70 x 85",
+    motorcycle_image: "https://placehold.co/300x200?text=TVS+Apache",
+    battery_image: "https://placehold.co/300x200?text=YTZ5S"
+  },
+  {
+    make: "Bajaj",
+    model: "Pulsar 150/180",
+    year_range: "2005-2023",
+    battery_code: "YTZ7S",
+    voltage: "12V",
+    capacity: "6Ah",
+    dimensions_mm: "113 x 70 x 105",
+    motorcycle_image: "https://placehold.co/300x200?text=Bajaj+Pulsar",
+    battery_image: "https://placehold.co/300x200?text=YTZ7S"
+  },
+  {
+    make: "Bajaj",
+    model: "RE 4S (Remork engine)",
+    year_range: "All",
+    battery_code: "N50Z / NS40",
+    voltage: "12V",
+    capacity: "35Ah",
+    dimensions_mm: "197 x 129 x 227",
+    motorcycle_image: "https://placehold.co/300x200?text=Bajaj+RE+4S",
+    battery_image: "https://placehold.co/300x200?text=N50Z"
+  },
+  {
+    make: "Piaggio/Vespa",
+    model: "Sprint/Primavera 125/150",
+    year_range: "2014-2023",
+    battery_code: "YTZ7S",
+    voltage: "12V",
+    capacity: "6Ah",
+    dimensions_mm: "113 x 70 x 105",
+    motorcycle_image: "https://placehold.co/300x200?text=Vespa+Sprint",
+    battery_image: "https://placehold.co/300x200?text=YTZ7S"
+  }
+
+];
